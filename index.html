@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Information System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+    <div class="container">
+        <img src="images/weather-logo.png" alt="Weather Logo">
+        <h1>Welcome to Weather Information System</h1>
+        <h3>Made by Anmol Singh</h3>
+        <h2>Technologies Used:</h2>
+        <p>HTML5, CSS, JavaScript, Java, Servlet, JSP, OpenWeather API</p>
+        <form action="myServlet" method="post" class="searchInput">
+            <input type="text" placeholder="Enter City Name" id="searchInput" value="New Delhi" name="city" aria-label="City Name"/>
+            <button id="searchButton" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i> Search</button>
+        </form>    
+    </div>
+</body>
+</html>
