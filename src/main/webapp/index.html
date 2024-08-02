@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Information System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+<body style="background: linear-gradient(to right,  #e5ff9c,#ffffff)">
+    <div class="container" style="text-align: center;">
+        <img src="images/weather-logo.png" alt="Weather Logo" height="300" width="300" >
+        <p style="font-family: 'Times New Roman', Times, serif;font-size: medium;">Welcome to</p>
+        <p style="font-size: 300% ;font-family: 'Times New Roman', Times, serif;">Weather Information System</p>
+        <p style="font-size: medium;font-family: 'Times New Roman', Times, serif;">Using HTML5, CSS, JavaScript, Java, Tomacat Server and  OpenWeatherMap API</p>
+        <p style="font-family: 'Times New Roman', Times, serif;">by</p>
+        <p style="font-family: 'Times New Roman', Times, serif;">Anmol Singh</p>
+        <form action="myServlet" method="post" class="searchInput">
+            <input type="text" placeholder="Enter City Name" id="searchInput" value="New Delhi" name="city" aria-label="City Name"/>
+            <button id="searchButton" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>    
+    </div>
+</body>
+</html>
